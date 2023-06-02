@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/imagen1.png";
+
 const NavBar = () => {
   const [visible, setVisible] = useState(false);
   const [subMenuVisible, setSubMenuVisible] = useState(false);
@@ -55,7 +56,7 @@ const NavBar = () => {
               </li>
               <ul className=" flex flex-col w-full">
                 <li className="justify-between hover:bg-[#2fb71d85] hover:text-[#052c02] p-2">
-                  <a href="#">Clientes</a>
+                  
                 </li>
                 <li className="justify-between hover:bg-[#2fb71d85] hover:text-[#052c02] p-2">
                   <a href="#">Proveedores</a>
